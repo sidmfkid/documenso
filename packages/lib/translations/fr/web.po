@@ -117,15 +117,15 @@ msgstr "<0>\"{0}\"</0> n'est plus disponible pour signer"
 msgid "<0>Sender:</0> All"
 msgstr "<0>Expéditeur :</0> Tous"
 
-#: apps/web/src/app/(signing)/sign/[token]/sign-dialog.tsx:104
+#: apps/web/src/app/(signing)/sign/[token]/sign-dialog.tsx:105
 msgid "<0>You are about to complete approving <1>\"{documentTitle}\"</1>.</0><2/> Are you sure?"
 msgstr "<0>Vous êtes sur le point de terminer l'approbation de <1>\"{documentTitle}\"</1>.</0><2/> Êtes-vous sûr ?"
 
-#: apps/web/src/app/(signing)/sign/[token]/sign-dialog.tsx:90
+#: apps/web/src/app/(signing)/sign/[token]/sign-dialog.tsx:91
 msgid "<0>You are about to complete signing \"<1>{documentTitle}</1>\".</0><2/> Are you sure?"
 msgstr "<0>Vous êtes sur le point de terminer la signature de \"<1>{documentTitle}</1>\".</0><2/> Êtes-vous sûr ?"
 
-#: apps/web/src/app/(signing)/sign/[token]/sign-dialog.tsx:76
+#: apps/web/src/app/(signing)/sign/[token]/sign-dialog.tsx:77
 msgid "<0>You are about to complete viewing \"<1>{documentTitle}</1>\".</0><2/> Are you sure?"
 msgstr "<0>Vous êtes sur le point de terminer la visualisation de \"<1>{documentTitle}</1>\".</0><2/> Êtes-vous sûr ?"
 
@@ -236,10 +236,18 @@ msgstr "Invitation d'équipe acceptée"
 msgid "Account Authentication"
 msgstr "Authentification de compte"
 
-#: apps/web/src/app/(dashboard)/admin/users/[id]/delete-user-dialog.tsx:51
+#: apps/web/src/app/(dashboard)/admin/users/[id]/delete-user-dialog.tsx:50
 #: apps/web/src/app/(dashboard)/settings/profile/delete-account-dialog.tsx:47
 msgid "Account deleted"
 msgstr "Compte supprimé"
+
+#: apps/web/src/app/(dashboard)/admin/users/[id]/disable-user-dialog.tsx:47
+msgid "Account disabled"
+msgstr ""
+
+#: apps/web/src/app/(dashboard)/admin/users/[id]/enable-user-dialog.tsx:47
+msgid "Account enabled"
+msgstr ""
 
 #: apps/web/src/app/(internal)/%5F%5Fhtmltopdf/certificate/page.tsx:119
 msgid "Account Re-Authentication"
@@ -397,7 +405,7 @@ msgstr "Depuis toujours"
 msgid "Allows authenticating using biometrics, password managers, hardware keys, etc."
 msgstr "Permet d'authentifier en utilisant des biométries, des gestionnaires de mots de passe, des clés matérielles, etc."
 
-#: apps/web/src/components/forms/v2/signup.tsx:426
+#: apps/web/src/components/forms/v2/signup.tsx:427
 msgid "Already have an account? <0>Sign in instead</0>"
 msgstr "Vous avez déjà un compte ? <0>Connectez-vous plutôt</0>"
 
@@ -423,7 +431,7 @@ msgstr "Un e-mail demandant le transfert de cette équipe a été envoyé."
 
 #: apps/web/src/app/(dashboard)/admin/documents/[id]/super-delete-document-dialog.tsx:60
 #: apps/web/src/app/(dashboard)/admin/site-settings/banner-form.tsx:83
-#: apps/web/src/app/(dashboard)/admin/users/[id]/delete-user-dialog.tsx:60
+#: apps/web/src/app/(dashboard)/admin/users/[id]/delete-user-dialog.tsx:59
 #: apps/web/src/app/(signing)/sign/[token]/complete/claim-account.tsx:100
 #: apps/web/src/components/forms/avatar-image.tsx:122
 #: apps/web/src/components/forms/password.tsx:92
@@ -431,7 +439,7 @@ msgstr "Un e-mail demandant le transfert de cette équipe a été envoyé."
 #: apps/web/src/components/forms/reset-password.tsx:95
 #: apps/web/src/components/forms/signup.tsx:112
 #: apps/web/src/components/forms/token.tsx:137
-#: apps/web/src/components/forms/v2/signup.tsx:165
+#: apps/web/src/components/forms/v2/signup.tsx:166
 msgid "An error occurred"
 msgstr "Une erreur est survenue"
 
@@ -464,6 +472,10 @@ msgstr "Une erreur est survenue lors de la création du webhook. Veuillez réess
 msgid "An error occurred while disabling direct link signing."
 msgstr "Une erreur est survenue lors de la désactivation de la signature par lien direct."
 
+#: apps/web/src/app/(dashboard)/admin/users/[id]/disable-user-dialog.tsx:57
+msgid "An error occurred while disabling the user."
+msgstr ""
+
 #: apps/web/src/app/(dashboard)/documents/[id]/document-page-view-button.tsx:64
 #: apps/web/src/app/(dashboard)/documents/[id]/document-page-view-dropdown.tsx:92
 #: apps/web/src/app/(dashboard)/documents/data-table-action-button.tsx:76
@@ -478,6 +490,10 @@ msgstr "Une erreur est survenue lors de la duplication du modèle."
 #: apps/web/src/app/(dashboard)/templates/template-direct-link-dialog.tsx:123
 msgid "An error occurred while enabling direct link signing."
 msgstr "Une erreur est survenue lors de l'activation de la signature par lien direct."
+
+#: apps/web/src/app/(dashboard)/admin/users/[id]/enable-user-dialog.tsx:57
+msgid "An error occurred while enabling the user."
+msgstr ""
 
 #: apps/web/src/components/(teams)/dialogs/transfer-team-dialog.tsx:299
 msgid "An error occurred while loading team members. Please try again later."
@@ -544,7 +560,7 @@ msgstr "Une erreur est survenue lors de la mise à jour des paramètres du docum
 msgid "An error occurred while updating the signature."
 msgstr "Une erreur est survenue lors de la mise à jour de la signature."
 
-#: apps/web/src/app/(dashboard)/admin/users/[id]/page.tsx:79
+#: apps/web/src/app/(dashboard)/admin/users/[id]/page.tsx:81
 msgid "An error occurred while updating your profile."
 msgstr "Une erreur est survenue lors de la mise à jour de votre profil."
 
@@ -554,7 +570,7 @@ msgstr "Une erreur est survenue lors du téléchargement de votre document."
 
 #: apps/web/src/app/(dashboard)/admin/documents/[id]/super-delete-document-dialog.tsx:66
 #: apps/web/src/app/(dashboard)/admin/site-settings/banner-form.tsx:89
-#: apps/web/src/app/(dashboard)/admin/users/[id]/delete-user-dialog.tsx:66
+#: apps/web/src/app/(dashboard)/admin/users/[id]/delete-user-dialog.tsx:65
 #: apps/web/src/app/(dashboard)/settings/profile/delete-account-dialog.tsx:55
 #: apps/web/src/app/(teams)/t/[teamUrl]/settings/team-transfer-status.tsx:54
 #: apps/web/src/components/(dashboard)/common/command-menu.tsx:301
@@ -582,8 +598,8 @@ msgstr "Une erreur est survenue lors du téléchargement de votre document."
 #: apps/web/src/components/forms/signup.tsx:124
 #: apps/web/src/components/forms/signup.tsx:138
 #: apps/web/src/components/forms/token.tsx:143
-#: apps/web/src/components/forms/v2/signup.tsx:186
-#: apps/web/src/components/forms/v2/signup.tsx:200
+#: apps/web/src/components/forms/v2/signup.tsx:187
+#: apps/web/src/components/forms/v2/signup.tsx:201
 #: apps/web/src/components/templates/manage-public-template-dialog.tsx:141
 #: apps/web/src/components/templates/manage-public-template-dialog.tsx:178
 msgid "An unknown error occurred"
@@ -618,11 +634,11 @@ msgstr "Version de l'application"
 #: apps/web/src/app/(dashboard)/documents/[id]/document-page-view-button.tsx:89
 #: apps/web/src/app/(dashboard)/documents/data-table-action-button.tsx:120
 #: apps/web/src/app/(dashboard)/documents/data-table-action-dropdown.tsx:146
-#: apps/web/src/app/(signing)/sign/[token]/sign-dialog.tsx:142
+#: apps/web/src/app/(signing)/sign/[token]/sign-dialog.tsx:143
 msgid "Approve"
 msgstr "Approuver"
 
-#: apps/web/src/app/(signing)/sign/[token]/form.tsx:136
+#: apps/web/src/app/(signing)/sign/[token]/form.tsx:142
 msgid "Approve Document"
 msgstr "Approuver le document"
 
@@ -687,7 +703,7 @@ msgstr "En attente de confirmation par e-mail"
 
 #: apps/web/src/app/(recipient)/d/[token]/sign-direct-template.tsx:373
 #: apps/web/src/components/(dashboard)/settings/layout/activity-back.tsx:20
-#: apps/web/src/components/forms/v2/signup.tsx:512
+#: apps/web/src/components/forms/v2/signup.tsx:513
 msgid "Back"
 msgstr "Retour"
 
@@ -712,7 +728,7 @@ msgstr "Codes de sauvegarde"
 msgid "Banner Updated"
 msgstr "Bannière mise à jour"
 
-#: apps/web/src/components/forms/v2/signup.tsx:475
+#: apps/web/src/components/forms/v2/signup.tsx:476
 msgid "Basic details"
 msgstr "Détails de base"
 
@@ -783,12 +799,12 @@ msgstr "En utilisant la fonctionnalité de signature électronique, vous consent
 #: apps/web/src/app/(signing)/sign/[token]/document-action-auth-account.tsx:71
 #: apps/web/src/app/(signing)/sign/[token]/document-action-auth-passkey.tsx:164
 #: apps/web/src/app/(signing)/sign/[token]/document-action-auth-passkey.tsx:189
-#: apps/web/src/app/(signing)/sign/[token]/form.tsx:158
-#: apps/web/src/app/(signing)/sign/[token]/form.tsx:240
+#: apps/web/src/app/(signing)/sign/[token]/form.tsx:164
+#: apps/web/src/app/(signing)/sign/[token]/form.tsx:246
 #: apps/web/src/app/(signing)/sign/[token]/name-field.tsx:215
 #: apps/web/src/app/(signing)/sign/[token]/number-field.tsx:328
 #: apps/web/src/app/(signing)/sign/[token]/reject-document-dialog.tsx:153
-#: apps/web/src/app/(signing)/sign/[token]/sign-dialog.tsx:130
+#: apps/web/src/app/(signing)/sign/[token]/sign-dialog.tsx:131
 #: apps/web/src/app/(signing)/sign/[token]/signature-field.tsx:320
 #: apps/web/src/app/(signing)/sign/[token]/text-field.tsx:335
 #: apps/web/src/app/(teams)/t/[teamUrl]/settings/team-transfer-status.tsx:121
@@ -844,7 +860,7 @@ msgstr "Choisissez..."
 msgid "Claim account"
 msgstr "Revendiquer le compte"
 
-#: apps/web/src/components/forms/v2/signup.tsx:484
+#: apps/web/src/components/forms/v2/signup.tsx:485
 msgid "Claim username"
 msgstr "Revendiquer le nom d'utilisateur"
 
@@ -852,7 +868,7 @@ msgstr "Revendiquer le nom d'utilisateur"
 msgid "Claim your profile later"
 msgstr "Revendiquer votre profil plus tard"
 
-#: apps/web/src/components/forms/v2/signup.tsx:282
+#: apps/web/src/components/forms/v2/signup.tsx:283
 msgid "Claim your username now"
 msgstr "Revendiquer votre nom d'utilisateur maintenant"
 
@@ -877,7 +893,7 @@ msgid "Click to copy signing link for sending to recipient"
 msgstr "Cliquez pour copier le lien de signature à envoyer au destinataire"
 
 #: apps/web/src/app/(recipient)/d/[token]/sign-direct-template.tsx:179
-#: apps/web/src/app/(signing)/sign/[token]/form.tsx:122
+#: apps/web/src/app/(signing)/sign/[token]/form.tsx:128
 #: apps/web/src/app/embed/direct/[[...url]]/client.tsx:481
 #: apps/web/src/app/embed/sign/[[...url]]/client.tsx:360
 msgid "Click to insert field"
@@ -896,22 +912,22 @@ msgstr "Cliquez pour insérer le champ"
 msgid "Close"
 msgstr "Fermer"
 
-#: apps/web/src/app/(signing)/sign/[token]/sign-dialog.tsx:60
+#: apps/web/src/app/(signing)/sign/[token]/sign-dialog.tsx:61
 #: apps/web/src/app/embed/direct/[[...url]]/client.tsx:471
 #: apps/web/src/app/embed/sign/[[...url]]/client.tsx:350
-#: apps/web/src/components/forms/v2/signup.tsx:537
+#: apps/web/src/components/forms/v2/signup.tsx:538
 msgid "Complete"
 msgstr "Compléter"
 
-#: apps/web/src/app/(signing)/sign/[token]/sign-dialog.tsx:69
+#: apps/web/src/app/(signing)/sign/[token]/sign-dialog.tsx:70
 msgid "Complete Approval"
 msgstr "Compléter l'approbation"
 
-#: apps/web/src/app/(signing)/sign/[token]/sign-dialog.tsx:68
+#: apps/web/src/app/(signing)/sign/[token]/sign-dialog.tsx:69
 msgid "Complete Signing"
 msgstr "Compléter la signature"
 
-#: apps/web/src/app/(signing)/sign/[token]/sign-dialog.tsx:67
+#: apps/web/src/app/(signing)/sign/[token]/sign-dialog.tsx:68
 msgid "Complete Viewing"
 msgstr "Compléter la visualisation"
 
@@ -1057,7 +1073,7 @@ msgstr "Copier le token"
 msgid "Create"
 msgstr "Créer"
 
-#: apps/web/src/components/forms/v2/signup.tsx:267
+#: apps/web/src/components/forms/v2/signup.tsx:268
 msgid "Create a new account"
 msgstr "Créer un nouveau compte"
 
@@ -1138,7 +1154,7 @@ msgstr "Créer un Webhook"
 msgid "Create your account and start using state-of-the-art document signing."
 msgstr "Créez votre compte et commencez à utiliser la signature de documents à la pointe de la technologie."
 
-#: apps/web/src/components/forms/v2/signup.tsx:271
+#: apps/web/src/components/forms/v2/signup.tsx:272
 msgid "Create your account and start using state-of-the-art document signing. Open and beautiful signing is within your grasp."
 msgstr "Créez votre compte et commencez à utiliser la signature de documents à la pointe de la technologie. Une signature ouverte et magnifique est à votre portée."
 
@@ -1247,12 +1263,12 @@ msgstr "supprimer {0}"
 msgid "delete {teamName}"
 msgstr "supprimer {teamName}"
 
-#: apps/web/src/app/(dashboard)/admin/users/[id]/delete-user-dialog.tsx:137
+#: apps/web/src/app/(dashboard)/admin/users/[id]/delete-user-dialog.tsx:136
 msgid "Delete account"
 msgstr "Supprimer le compte"
 
-#: apps/web/src/app/(dashboard)/admin/users/[id]/delete-user-dialog.tsx:98
-#: apps/web/src/app/(dashboard)/admin/users/[id]/delete-user-dialog.tsx:105
+#: apps/web/src/app/(dashboard)/admin/users/[id]/delete-user-dialog.tsx:97
+#: apps/web/src/app/(dashboard)/admin/users/[id]/delete-user-dialog.tsx:104
 #: apps/web/src/app/(dashboard)/settings/profile/delete-account-dialog.tsx:72
 #: apps/web/src/app/(dashboard)/settings/profile/delete-account-dialog.tsx:86
 #: apps/web/src/app/(dashboard)/settings/profile/delete-account-dialog.tsx:93
@@ -1286,7 +1302,7 @@ msgstr "Supprimer le membre de l'équipe"
 msgid "Delete the document. This action is irreversible so proceed with caution."
 msgstr "Supprimez le document. Cette action est irréversible, soyez prudent."
 
-#: apps/web/src/app/(dashboard)/admin/users/[id]/delete-user-dialog.tsx:87
+#: apps/web/src/app/(dashboard)/admin/users/[id]/delete-user-dialog.tsx:86
 msgid "Delete the users account and all its contents. This action is irreversible and will cancel their subscription, so proceed with caution."
 msgstr "Supprimez le compte de l'utilisateur et tout son contenu. Cette action est irréversible et annulera son abonnement, soyez prudent."
 
@@ -1369,6 +1385,15 @@ msgstr "Désactiver"
 msgid "Disable 2FA"
 msgstr "Désactiver 2FA"
 
+#: apps/web/src/app/(dashboard)/admin/users/[id]/disable-user-dialog.tsx:132
+msgid "Disable account"
+msgstr ""
+
+#: apps/web/src/app/(dashboard)/admin/users/[id]/disable-user-dialog.tsx:88
+#: apps/web/src/app/(dashboard)/admin/users/[id]/disable-user-dialog.tsx:95
+msgid "Disable Account"
+msgstr ""
+
 #: apps/web/src/app/(dashboard)/settings/profile/delete-account-dialog.tsx:105
 msgid "Disable Two Factor Authentication before deleting your account."
 msgstr "Désactiver l'authentification à deux facteurs avant de supprimer votre compte."
@@ -1381,6 +1406,10 @@ msgstr "Désactivé"
 #: apps/web/src/app/(dashboard)/templates/template-direct-link-dialog.tsx:380
 msgid "Disabling direct link signing will prevent anyone from accessing the link."
 msgstr "Désactiver la signature de lien direct empêchera quiconque d'accéder au lien."
+
+#: apps/web/src/app/(dashboard)/admin/users/[id]/disable-user-dialog.tsx:77
+msgid "Disabling the user results in the user not being able to use the account. It also disables all the related contents such as subscription, webhooks, teams, and API keys."
+msgstr ""
 
 #: apps/web/src/app/(dashboard)/settings/teams/team-email-usage.tsx:75
 msgid "Display your name and email in documents"
@@ -1646,7 +1675,7 @@ msgid "Electronic Signature Disclosure"
 msgstr "Divulgation de signature électronique"
 
 #: apps/web/src/app/(dashboard)/admin/documents/[id]/recipient-item.tsx:166
-#: apps/web/src/app/(dashboard)/admin/users/[id]/page.tsx:114
+#: apps/web/src/app/(dashboard)/admin/users/[id]/page.tsx:116
 #: apps/web/src/app/(dashboard)/admin/users/data-table-users.tsx:71
 #: apps/web/src/app/(dashboard)/templates/use-template-dialog.tsx:265
 #: apps/web/src/app/(dashboard)/templates/use-template-dialog.tsx:272
@@ -1671,7 +1700,7 @@ msgstr "Email"
 msgid "Email address"
 msgstr "Adresse email"
 
-#: apps/web/src/components/forms/v2/signup.tsx:331
+#: apps/web/src/components/forms/v2/signup.tsx:332
 msgid "Email Address"
 msgstr "Adresse e-mail"
 
@@ -1699,6 +1728,15 @@ msgstr "La vérification par email a été renvoyée"
 #: apps/web/src/components/forms/2fa/enable-authenticator-app-dialog.tsx:262
 msgid "Enable 2FA"
 msgstr "Activer 2FA"
+
+#: apps/web/src/app/(dashboard)/admin/users/[id]/enable-user-dialog.tsx:121
+msgid "Enable account"
+msgstr ""
+
+#: apps/web/src/app/(dashboard)/admin/users/[id]/enable-user-dialog.tsx:88
+#: apps/web/src/app/(dashboard)/admin/users/[id]/enable-user-dialog.tsx:95
+msgid "Enable Account"
+msgstr ""
 
 #: apps/web/src/components/forms/2fa/enable-authenticator-app-dialog.tsx:194
 msgid "Enable Authenticator App"
@@ -1729,6 +1767,10 @@ msgstr "Activer la signature dactylographiée"
 msgid "Enabled"
 msgstr "Activé"
 
+#: apps/web/src/app/(dashboard)/admin/users/[id]/enable-user-dialog.tsx:77
+msgid "Enabling the account results in the user being able to use the account again, and all the related features such as webhooks, teams, and API keys for example."
+msgstr ""
+
 #: apps/web/src/app/(internal)/%5F%5Fhtmltopdf/audit-log/page.tsx:87
 msgid "Enclosed Document"
 msgstr "Document joint"
@@ -1758,7 +1800,9 @@ msgid "Enter your text here"
 msgstr "Entrez votre texte ici"
 
 #: apps/web/src/app/(dashboard)/admin/documents/[id]/admin-actions.tsx:41
-#: apps/web/src/app/(dashboard)/admin/users/[id]/page.tsx:78
+#: apps/web/src/app/(dashboard)/admin/users/[id]/disable-user-dialog.tsx:60
+#: apps/web/src/app/(dashboard)/admin/users/[id]/enable-user-dialog.tsx:60
+#: apps/web/src/app/(dashboard)/admin/users/[id]/page.tsx:80
 #: apps/web/src/app/(dashboard)/documents/[id]/edit-document.tsx:234
 #: apps/web/src/app/(dashboard)/documents/[id]/edit-document.tsx:268
 #: apps/web/src/app/(dashboard)/documents/[id]/edit-document.tsx:303
@@ -1856,12 +1900,12 @@ msgid "Forgot your password?"
 msgstr "Mot de passe oublié ?"
 
 #: apps/web/src/app/(recipient)/d/[token]/sign-direct-template.tsx:330
-#: apps/web/src/app/(signing)/sign/[token]/form.tsx:185
+#: apps/web/src/app/(signing)/sign/[token]/form.tsx:191
 #: apps/web/src/app/(signing)/sign/[token]/name-field.tsx:193
 #: apps/web/src/app/embed/direct/[[...url]]/client.tsx:392
 #: apps/web/src/app/embed/sign/[[...url]]/client.tsx:272
 #: apps/web/src/components/forms/profile.tsx:110
-#: apps/web/src/components/forms/v2/signup.tsx:315
+#: apps/web/src/components/forms/v2/signup.tsx:316
 msgid "Full Name"
 msgstr "Nom complet"
 
@@ -2200,7 +2244,7 @@ msgstr "Connexion"
 msgid "Manage"
 msgstr "Gérer"
 
-#: apps/web/src/app/(dashboard)/admin/users/[id]/page.tsx:88
+#: apps/web/src/app/(dashboard)/admin/users/[id]/page.tsx:90
 msgid "Manage {0}'s profile"
 msgstr "Gérer le profil de {0}"
 
@@ -2272,7 +2316,7 @@ msgstr "Gérer vos clés d'accès."
 msgid "Manage your site settings here"
 msgstr "Gérer les paramètres de votre site ici"
 
-#: apps/web/src/app/(signing)/sign/[token]/sign-dialog.tsx:140
+#: apps/web/src/app/(signing)/sign/[token]/sign-dialog.tsx:141
 msgid "Mark as Viewed"
 msgstr "Marquer comme vu"
 
@@ -2342,7 +2386,7 @@ msgstr "Mes modèles"
 
 #: apps/web/src/app/(dashboard)/admin/documents/[id]/recipient-item.tsx:148
 #: apps/web/src/app/(dashboard)/admin/leaderboard/data-table-leaderboard.tsx:56
-#: apps/web/src/app/(dashboard)/admin/users/[id]/page.tsx:99
+#: apps/web/src/app/(dashboard)/admin/users/[id]/page.tsx:101
 #: apps/web/src/app/(dashboard)/admin/users/data-table-users.tsx:66
 #: apps/web/src/app/(dashboard)/settings/security/passkeys/user-passkeys-data-table-actions.tsx:144
 #: apps/web/src/app/(dashboard)/settings/security/passkeys/user-passkeys-data-table.tsx:59
@@ -2379,11 +2423,11 @@ msgstr "Nouveau modèle"
 
 #: apps/web/src/app/embed/direct/[[...url]]/client.tsx:462
 #: apps/web/src/app/embed/sign/[[...url]]/client.tsx:341
-#: apps/web/src/components/forms/v2/signup.tsx:524
+#: apps/web/src/components/forms/v2/signup.tsx:525
 msgid "Next"
 msgstr "Suivant"
 
-#: apps/web/src/app/(signing)/sign/[token]/sign-dialog.tsx:60
+#: apps/web/src/app/(signing)/sign/[token]/sign-dialog.tsx:61
 msgid "Next field"
 msgstr "Champ suivant"
 
@@ -2505,7 +2549,7 @@ msgstr "Seules les administrateurs peuvent accéder et voir le document"
 msgid "Only managers and above can access and view the document"
 msgstr "Seuls les responsables et au-dessus peuvent accéder et voir le document"
 
-#: apps/web/src/components/forms/v2/signup.tsx:81
+#: apps/web/src/components/forms/v2/signup.tsx:82
 msgid "Only subscribers can have a username shorter than 6 characters"
 msgstr "Seuls les abonnés peuvent avoir un nom d'utilisateur de moins de 6 caractères"
 
@@ -2524,7 +2568,7 @@ msgstr "Ouvert"
 #: apps/web/src/app/(dashboard)/templates/template-direct-link-dialog.tsx:337
 #: apps/web/src/components/forms/signup.tsx:239
 #: apps/web/src/components/forms/signup.tsx:263
-#: apps/web/src/components/forms/v2/signup.tsx:386
+#: apps/web/src/components/forms/v2/signup.tsx:387
 msgid "Or"
 msgstr "Ou"
 
@@ -2594,7 +2638,7 @@ msgstr "Les clés d'accès ne sont pas prises en charge sur ce navigateur"
 #: apps/web/src/components/forms/reset-password.tsx:115
 #: apps/web/src/components/forms/signin.tsx:357
 #: apps/web/src/components/forms/signup.tsx:192
-#: apps/web/src/components/forms/v2/signup.tsx:347
+#: apps/web/src/components/forms/v2/signup.tsx:348
 msgid "Password"
 msgstr "Mot de passe"
 
@@ -2687,7 +2731,7 @@ msgstr "Veuillez entrer un nom significatif pour votre token. Cela vous aidera �
 msgid "Please enter a valid name."
 msgstr "Veuiillez entrer un nom valide."
 
-#: apps/web/src/app/(signing)/sign/[token]/form.tsx:142
+#: apps/web/src/app/(signing)/sign/[token]/form.tsx:148
 msgid "Please mark as viewed to complete"
 msgstr "Veuillez marquer comme vu pour terminer"
 
@@ -2731,7 +2775,7 @@ msgstr "Veuillez fournir un token de l'authentificateur, ou un code de secours. 
 msgid "Please provide a token from your authenticator, or a backup code."
 msgstr "Veuillez fournir un token de votre authentificateur, ou un code de secours."
 
-#: apps/web/src/app/(signing)/sign/[token]/form.tsx:176
+#: apps/web/src/app/(signing)/sign/[token]/form.tsx:182
 msgid "Please review the document before signing."
 msgstr "Veuillez examiner le document avant de signer."
 
@@ -2793,7 +2837,7 @@ msgstr "Le profil est actuellement <0>caché</0>."
 msgid "Profile is currently <0>visible</0>."
 msgstr "Le profil est actuellement <0>visible</0>."
 
-#: apps/web/src/app/(dashboard)/admin/users/[id]/page.tsx:72
+#: apps/web/src/app/(dashboard)/admin/users/[id]/page.tsx:74
 #: apps/web/src/components/forms/profile.tsx:72
 msgid "Profile updated"
 msgstr "Profil mis à jour"
@@ -2815,7 +2859,7 @@ msgstr "Profil public"
 msgid "Public profile URL"
 msgstr "URL du profil public"
 
-#: apps/web/src/components/forms/v2/signup.tsx:453
+#: apps/web/src/components/forms/v2/signup.tsx:454
 msgid "Public profile username"
 msgstr "Nom d'utilisateur du profil public"
 
@@ -2895,7 +2939,7 @@ msgstr "Codes de récupération"
 
 #: apps/web/src/app/(signing)/sign/[token]/complete/claim-account.tsx:83
 #: apps/web/src/components/forms/signup.tsx:95
-#: apps/web/src/components/forms/v2/signup.tsx:138
+#: apps/web/src/components/forms/v2/signup.tsx:139
 msgid "Registration Successful"
 msgstr "Inscription réussie"
 
@@ -3038,7 +3082,7 @@ msgstr "Révoquer l'accès"
 msgid "Role"
 msgstr "Rôle"
 
-#: apps/web/src/app/(dashboard)/admin/users/[id]/page.tsx:131
+#: apps/web/src/app/(dashboard)/admin/users/[id]/page.tsx:133
 #: apps/web/src/app/(dashboard)/admin/users/data-table-users.tsx:76
 msgid "Roles"
 msgstr "Rôles"
@@ -3196,7 +3240,7 @@ msgstr "Afficher des modèles dans le profil public de votre équipe pour que vo
 #: apps/web/src/app/(signing)/sign/[token]/auto-sign.tsx:229
 #: apps/web/src/app/(signing)/sign/[token]/document-action-auth-2fa.tsx:182
 #: apps/web/src/app/(signing)/sign/[token]/name-field.tsx:224
-#: apps/web/src/app/(signing)/sign/[token]/sign-dialog.tsx:141
+#: apps/web/src/app/(signing)/sign/[token]/sign-dialog.tsx:142
 #: apps/web/src/app/(signing)/sign/[token]/signature-field.tsx:328
 #: apps/web/src/components/ui/user-profile-skeleton.tsx:75
 #: apps/web/src/components/ui/user-profile-timur.tsx:81
@@ -3216,7 +3260,7 @@ msgstr "Signer comme<0>{0} <1>({1})</1></0>"
 msgid "Sign document"
 msgstr "Signer le document"
 
-#: apps/web/src/app/(signing)/sign/[token]/form.tsx:135
+#: apps/web/src/app/(signing)/sign/[token]/form.tsx:141
 msgid "Sign Document"
 msgstr "Signer le document"
 
@@ -3225,7 +3269,7 @@ msgid "Sign field"
 msgstr "Champ de signature"
 
 #: apps/web/src/components/forms/signup.tsx:208
-#: apps/web/src/components/forms/v2/signup.tsx:365
+#: apps/web/src/components/forms/v2/signup.tsx:366
 msgid "Sign Here"
 msgstr "Signer ici"
 
@@ -3258,19 +3302,19 @@ msgid "Sign Up"
 msgstr "S'inscrire"
 
 #: apps/web/src/components/forms/signup.tsx:253
-#: apps/web/src/components/forms/v2/signup.tsx:404
+#: apps/web/src/components/forms/v2/signup.tsx:405
 msgid "Sign Up with Google"
 msgstr "S'inscrire avec Google"
 
 #: apps/web/src/components/forms/signup.tsx:277
-#: apps/web/src/components/forms/v2/signup.tsx:420
+#: apps/web/src/components/forms/v2/signup.tsx:421
 msgid "Sign Up with OIDC"
 msgstr "S'inscrire avec OIDC"
 
 #: apps/web/src/app/(dashboard)/admin/documents/[id]/recipient-item.tsx:88
 #: apps/web/src/app/(internal)/%5F%5Fhtmltopdf/certificate/page.tsx:177
 #: apps/web/src/app/(recipient)/d/[token]/sign-direct-template.tsx:342
-#: apps/web/src/app/(signing)/sign/[token]/form.tsx:199
+#: apps/web/src/app/(signing)/sign/[token]/form.tsx:205
 #: apps/web/src/app/(signing)/sign/[token]/signature-field.tsx:251
 #: apps/web/src/app/(signing)/sign/[token]/signature-field.tsx:286
 #: apps/web/src/app/embed/direct/[[...url]]/client.tsx:422
@@ -3283,7 +3327,7 @@ msgstr "Signature"
 msgid "Signature ID"
 msgstr "ID de signature"
 
-#: apps/web/src/app/(signing)/sign/[token]/form.tsx:223
+#: apps/web/src/app/(signing)/sign/[token]/form.tsx:229
 #: apps/web/src/app/(signing)/sign/[token]/signature-field.tsx:303
 #: apps/web/src/app/embed/direct/[[...url]]/client.tsx:448
 #: apps/web/src/app/embed/sign/[[...url]]/client.tsx:327
@@ -3339,7 +3383,7 @@ msgstr "Inscription en cours..."
 msgid "Signing Volume"
 msgstr "Volume de signatures"
 
-#: apps/web/src/components/forms/v2/signup.tsx:77
+#: apps/web/src/components/forms/v2/signup.tsx:78
 msgid "Signups are disabled."
 msgstr "Les inscriptions sont désactivées."
 
@@ -3698,9 +3742,17 @@ msgstr "Couleur du texte"
 msgid "Thank you for using Documenso to perform your electronic document signing. The purpose of this disclosure is to inform you about the process, legality, and your rights regarding the use of electronic signatures on our platform. By opting to use an electronic signature, you are agreeing to the terms and conditions outlined below."
 msgstr "Merci d'utiliser Documenso pour signer vos documents électroniquement. L'objectif de cette divulgation est de vous informer sur le processus, la légalité et vos droits concernant l'utilisation des signatures électroniques sur notre plateforme. En choisissant d'utiliser une signature électronique, vous acceptez les termes et conditions énoncés ci-dessous."
 
-#: apps/web/src/app/(dashboard)/admin/users/[id]/delete-user-dialog.tsx:52
+#: apps/web/src/app/(dashboard)/admin/users/[id]/delete-user-dialog.tsx:51
 msgid "The account has been deleted successfully."
 msgstr "Le compte a été supprimé avec succès."
+
+#: apps/web/src/app/(dashboard)/admin/users/[id]/disable-user-dialog.tsx:48
+msgid "The account has been disabled successfully."
+msgstr ""
+
+#: apps/web/src/app/(dashboard)/admin/users/[id]/enable-user-dialog.tsx:48
+msgid "The account has been enabled successfully."
+msgstr ""
 
 #: apps/web/src/app/(dashboard)/admin/site-settings/banner-form.tsx:197
 msgid "The content to show in the banner, HTML is allowed"
@@ -3852,10 +3904,14 @@ msgid "They have permission on your behalf to:"
 msgstr "Ils ont la permission en votre nom de:"
 
 #: apps/web/src/app/(dashboard)/admin/documents/[id]/super-delete-document-dialog.tsx:110
-#: apps/web/src/app/(dashboard)/admin/users/[id]/delete-user-dialog.tsx:110
+#: apps/web/src/app/(dashboard)/admin/users/[id]/delete-user-dialog.tsx:109
 #: apps/web/src/app/(dashboard)/settings/profile/delete-account-dialog.tsx:98
 msgid "This action is not reversible. Please be certain."
 msgstr "Cette action n'est pas réversible. Veuillez être sûr."
+
+#: apps/web/src/app/(dashboard)/admin/users/[id]/disable-user-dialog.tsx:100
+msgid "This action is reversible, but please be careful as the account may be affected permanently (e.g. their settings and contents not being restored properly)."
+msgstr ""
 
 #: apps/web/src/app/(dashboard)/documents/delete-document-dialog.tsx:83
 msgid "This document could not be deleted at this time. Please try again."
@@ -3942,7 +3998,7 @@ msgstr "Ce token est invalide ou a expiré. Veuillez contacter votre équipe pou
 msgid "This URL is already in use."
 msgstr "Cette URL est déjà utilisée."
 
-#: apps/web/src/components/forms/v2/signup.tsx:80
+#: apps/web/src/components/forms/v2/signup.tsx:81
 msgid "This username has already been taken"
 msgstr "Ce nom d'utilisateur a déjà été pris"
 
@@ -3978,7 +4034,9 @@ msgstr "Pour accepter cette invitation, vous devez créer un compte."
 msgid "To change the email you must remove and add a new email address."
 msgstr "Pour changer l'e-mail, vous devez supprimer et ajouter une nouvelle adresse e-mail."
 
-#: apps/web/src/app/(dashboard)/admin/users/[id]/delete-user-dialog.tsx:117
+#: apps/web/src/app/(dashboard)/admin/users/[id]/delete-user-dialog.tsx:116
+#: apps/web/src/app/(dashboard)/admin/users/[id]/disable-user-dialog.tsx:111
+#: apps/web/src/app/(dashboard)/admin/users/[id]/enable-user-dialog.tsx:101
 msgid "To confirm, please enter the accounts email address <0/>({0})."
 msgstr "Pour confirmer, veuillez entrer l'adresse e-mail du compte <0/>({0})."
 
@@ -4287,7 +4345,7 @@ msgstr "Mettre à jour l'e-mail de l'équipe"
 msgid "Update team member"
 msgstr "Mettre à jour le membre de l'équipe"
 
-#: apps/web/src/app/(dashboard)/admin/users/[id]/page.tsx:147
+#: apps/web/src/app/(dashboard)/admin/users/[id]/page.tsx:149
 msgid "Update user"
 msgstr "Mettre à jour l'utilisateur"
 
@@ -4364,7 +4422,12 @@ msgstr "L'utilisateur n'a pas de mot de passe."
 msgid "User ID"
 msgstr "ID utilisateur"
 
-#: apps/web/src/components/forms/v2/signup.tsx:237
+#: apps/web/src/app/(dashboard)/admin/users/[id]/disable-user-dialog.tsx:55
+#: apps/web/src/app/(dashboard)/admin/users/[id]/enable-user-dialog.tsx:55
+msgid "User not found."
+msgstr ""
+
+#: apps/web/src/components/forms/v2/signup.tsx:238
 msgid "User profiles are here!"
 msgstr "Les profils des utilisateurs sont ici !"
 
@@ -4372,7 +4435,7 @@ msgstr "Les profils des utilisateurs sont ici !"
 msgid "User settings"
 msgstr "Paramètres de l'utilisateur"
 
-#: apps/web/src/components/forms/v2/signup.tsx:78
+#: apps/web/src/components/forms/v2/signup.tsx:79
 msgid "User with this email already exists. Please use a different email address."
 msgstr "Un utilisateur avec cet e-mail existe déjà. Veuillez utiliser une adresse e-mail différente."
 
@@ -4449,7 +4512,7 @@ msgstr "Voir toute l'activité de sécurité liée à votre compte."
 msgid "View Codes"
 msgstr "Voir les codes"
 
-#: apps/web/src/app/(signing)/sign/[token]/form.tsx:134
+#: apps/web/src/app/(signing)/sign/[token]/form.tsx:140
 msgid "View Document"
 msgstr "Voir le document"
 
@@ -4554,7 +4617,7 @@ msgstr "Une erreur inconnue s'est produite lors de la suppression de cette équi
 msgid "We encountered an unknown error while attempting to delete this token. Please try again later."
 msgstr "Une erreur inconnue s'est produite lors de la suppression de ce token. Veuillez réessayer plus tard."
 
-#: apps/web/src/app/(dashboard)/admin/users/[id]/delete-user-dialog.tsx:71
+#: apps/web/src/app/(dashboard)/admin/users/[id]/delete-user-dialog.tsx:70
 #: apps/web/src/app/(dashboard)/settings/profile/delete-account-dialog.tsx:58
 msgid "We encountered an unknown error while attempting to delete your account. Please try again later."
 msgstr "Une erreur inconnue s'est produite lors de la suppression de votre compte. Veuillez réessayer plus tard."
@@ -4604,8 +4667,8 @@ msgstr "Une erreur inconnue s'est produite lors de la connexion. Veuillez réess
 
 #: apps/web/src/components/forms/signup.tsx:126
 #: apps/web/src/components/forms/signup.tsx:140
-#: apps/web/src/components/forms/v2/signup.tsx:188
-#: apps/web/src/components/forms/v2/signup.tsx:202
+#: apps/web/src/components/forms/v2/signup.tsx:189
+#: apps/web/src/components/forms/v2/signup.tsx:203
 msgid "We encountered an unknown error while attempting to sign you Up. Please try again later."
 msgstr "Une erreur inconnue s'est produite lors de l'inscription. Veuillez réessayer plus tard."
 
@@ -4662,7 +4725,7 @@ msgstr "Nous n'avons pas pu copier votre code de récupération dans votre press
 msgid "We were unable to create a checkout session. Please try again, or contact support"
 msgstr "Nous n'avons pas pu créer de session de paiement. Veuillez réessayer ou contacter le support"
 
-#: apps/web/src/components/forms/v2/signup.tsx:79
+#: apps/web/src/components/forms/v2/signup.tsx:80
 msgid "We were unable to create your account. Please review the information you provided and try again."
 msgstr "Nous n'avons pas pu créer votre compte. Veuillez vérifier les informations que vous avez fournies et réessayer."
 
@@ -4848,6 +4911,14 @@ msgstr "Vous mettez à jour actuellement la clé de passkey <0>{passkeyName}</0>
 msgid "You are not a member of this team."
 msgstr ""
 
+#: apps/web/src/app/(dashboard)/admin/users/[id]/disable-user-dialog.tsx:56
+msgid "You are not authorized to disable this user."
+msgstr ""
+
+#: apps/web/src/app/(dashboard)/admin/users/[id]/enable-user-dialog.tsx:56
+msgid "You are not authorized to enable this user."
+msgstr ""
+
 #: apps/web/src/app/(teams)/t/[teamUrl]/error.tsx:28
 msgid "You are not authorized to view this page."
 msgstr "Vous n'êtes pas autorisé à voir cette page."
@@ -4948,7 +5019,7 @@ msgstr "Vous avez quitté cette équipe avec succès."
 
 #: apps/web/src/app/(signing)/sign/[token]/complete/claim-account.tsx:85
 #: apps/web/src/components/forms/signup.tsx:97
-#: apps/web/src/components/forms/v2/signup.tsx:140
+#: apps/web/src/components/forms/v2/signup.tsx:141
 msgid "You have successfully registered. Please verify your account by clicking on the link you received in the email."
 msgstr "Vous vous êtes inscrit avec succès. Veuillez vérifier votre compte en cliquant sur le lien que vous avez reçu dans l'e-mail."
 
@@ -5002,7 +5073,7 @@ msgstr "Vous devez être connecté pour voir cette page."
 msgid "You need to setup 2FA to mark this document as viewed."
 msgstr "Vous devez configurer 2FA pour marquer ce document comme vu."
 
-#: apps/web/src/components/forms/v2/signup.tsx:286
+#: apps/web/src/components/forms/v2/signup.tsx:287
 msgid "You will get notified & be able to set up your documenso public profile when we launch the feature."
 msgstr "Vous serez notifié et pourrez configurer votre profil public Documenso lorsque nous lancerons la fonctionnalité."
 
@@ -5109,7 +5180,7 @@ msgstr "Votre paiement pour les équipes est en retard. Veuillez régler le paie
 msgid "Your profile has been updated successfully."
 msgstr "Votre profil a été mis à jour avec succès."
 
-#: apps/web/src/app/(dashboard)/admin/users/[id]/page.tsx:73
+#: apps/web/src/app/(dashboard)/admin/users/[id]/page.tsx:75
 msgid "Your profile has been updated."
 msgstr "Votre profil a été mis à jour."
 

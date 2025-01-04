@@ -55,7 +55,7 @@ export const TeamInviteEmailTemplate = ({
               <TemplateImage
                 assetBaseUrl={assetBaseUrl}
                 className="mb-4 h-6 p-2"
-                staticAsset="logo.png"
+                staticAsset="shaireblack.webp"
               />
             )}
 

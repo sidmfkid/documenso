@@ -30,7 +30,7 @@ export async function GET(_request: Request) {
     fetch(new URL('@documenso/assets/images/background-blog-og.png', import.meta.url)).then(
       async (res) => res.arrayBuffer(),
     ),
-    fetch(new URL('@documenso/assets/logo.png', import.meta.url)).then(async (res) =>
+    fetch(new URL('@documenso/assets/shaireblack.webp', import.meta.url)).then(async (res) =>
       res.arrayBuffer(),
     ),
   ]);

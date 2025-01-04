@@ -11,7 +11,7 @@ import { FaXTwitter } from 'react-icons/fa6';
 import { LiaDiscord } from 'react-icons/lia';
 import { LuGithub, LuLanguages } from 'react-icons/lu';
 
-import LogoImage from '@documenso/assets/logo.png';
+import LogoImage from '@documenso/assets/shaireblack.webp';
 import { SUPPORTED_LANGUAGES } from '@documenso/lib/constants/i18n';
 // import { StatusWidgetContainer } from './status-widget-container';
 import { LanguageSwitcherDialog } from '@documenso/ui/components/common/language-switcher-dialog';

@@ -10,7 +10,7 @@ import { FaXTwitter } from 'react-icons/fa6';
 import { LiaDiscord } from 'react-icons/lia';
 import { LuGithub } from 'react-icons/lu';
 
-import LogoImage from '@documenso/assets/logo.png';
+import LogoImage from '@documenso/assets/shaireblack.webp';
 import { Sheet, SheetContent } from '@documenso/ui/primitives/sheet';
 
 export type MobileNavigationProps = {
@@ -122,7 +122,7 @@ export const MobileNavigation = ({ isMenuOpen, onMenuOpenChange }: MobileNavigat
           ))}
         </motion.div>
 
-        <div className="mx-auto mt-8 flex w-full flex-wrap items-center gap-x-4 gap-y-4 ">
+        <div className="mx-auto mt-8 flex w-full flex-wrap items-center gap-x-4 gap-y-4">
           <Link
             href="https://twitter.com/documenso"
             target="_blank"
