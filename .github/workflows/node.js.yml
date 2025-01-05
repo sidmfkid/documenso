@@ -11,8 +11,8 @@ jobs:
     strategy:
       matrix:
         node-version: [23.5.0]
-    env:
-      NEXT_PUBLIC_WEBAPP_URL: ${{secrets.NEXT_PUBLIC_WEBAPP_URL}}
+    # env:
+    # NEXT_PUBLIC_WEBAPP_URL: ${{secrets.NEXT_PUBLIC_WEBAPP_URL}}
 
     steps:
       - uses: actions/checkout@v4
