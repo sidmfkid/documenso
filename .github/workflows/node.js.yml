@@ -11,7 +11,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [20.13.1]
+        node-version: [23.5.0]
     env:
       NEXT_PUBLIC_WEBAPP_URL: ${{secrets.NEXT_PUBLIC_WEBAPP_URL}}
 
