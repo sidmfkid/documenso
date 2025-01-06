@@ -33,7 +33,7 @@ runs:
       if: steps.cache-node-modules.outputs.cache-hit != 'true'
       shell: bash
       run: |
-        cd documenso && npm ci --no-audit --legacy-peer-deps --loglevel verbose
+        cd apps/web && npm ci --no-audit --legacy-peer-deps --loglevel verbose
         npm run prisma:generate
       env:
         HUSKY: '0'
